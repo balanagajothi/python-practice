@@ -1,0 +1,9 @@
+#Rectangle
+l=int(input())
+b=int(input())
+print("The area of rectangle is ",l*b)
+
+#circle
+PI = 3.14
+r=int(input())
+print("The area of circle is ",PI*r*r)
