@@ -1,0 +1,139 @@
+#Print 1 to N 
+n=int(input())
+for i in range(1,n+1):
+    print(i,end=' ')
+
+
+#Print N to 1
+n=int(input())
+for i in range(n,0,-1):
+    print(i,end=' ')
+
+
+#Sum 1 to N
+n=int(input())
+s=0
+for i in range(1,n+1):
+    s+=i
+print(s)
+
+
+#Multiplication table
+n=int(input())
+for i in range(1,11):
+    print(f"{i} * {n} = ",i*n)
+
+
+#Even numbers till N
+n=int(input())
+for i in range(1,n+1):
+        if i%2==0:
+            print(i,end=' ')
+
+
+#Odd numbers till N
+n=int(input())
+for i in range(1,n+1):
+        if i%2==1:
+            print(i,end=' ')
+
+
+# Count of Odd numbers till N
+n=int(input())
+c=0
+for i in range(1,n+1):
+        if i%2==1:
+            c+=1
+print(c)
+
+
+# Count of even numbers till N
+n=int(input())
+c=0
+for i in range(1,n+1):
+        if i%2==0:
+            c+=1
+print(c)
+
+
+#Sum of even numbers till N
+n=int(input())
+s=0
+for i in range(1,n+1):
+        if i%2==0:
+            s+=i
+print(s)
+
+
+#Sum of odd numbers till N
+n=int(input())
+s=0
+for i in range(1,n+1):
+        if i%2==1:
+            s+=i
+print(s)
+
+
+#Squares from 1 to N
+n=int(input())
+for i in range(1,n+1):
+     print(i*i)
+
+
+#Cubes from 1 to N
+n=int(input())
+for i in range(1,n+1):
+     print(i*i*i)
+
+
+#Numbers divisible by 3
+n=int(input())
+for i in range(1,n+1):
+    if i%3==0:
+      print(i,end=' ')
+
+
+#count divisible by 3
+n=int(input())
+c=0
+for i in range(1,n+1):
+    if i%3==0:
+          c+=1
+print(c)
+
+
+#Reverse counting
+n=int(input())
+for i in range(n,0,-1):
+    print(i,end=' ')
+
+
+#Sum of multiples of 5
+n=int(input())
+s=0
+for i in range(1,n+1):
+   if i%5==0:
+       s+=i
+print(s)
+
+
+#Factorial
+n=int(input())
+f=1
+for i in range(1,n+1):
+    f*=i
+print(f)
+
+
+#print A-Z
+for i in range(65,91):
+    print(chr(i),end=' ')
+
+
+#Power using loops
+b=int(input())
+e=int(input())
+r=1
+for i in range(1,e+1):
+    r*=b
+print(r)
