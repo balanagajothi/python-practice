@@ -1,0 +1,21 @@
+#largest of 3 numbers
+n=int(input())
+m=int(input())
+l=int(input())
+if n>m and n>l:
+    print(f'{n} is greater')
+elif m>n and m>l:
+    print(f'{m} is greater')
+else:
+    print(f'{l} is greater')
+
+#smallest of 3 numbers
+n=int(input())
+m=int(input())
+l=int(input())
+if n<m and n<l:
+    print(f'{n} is smaller')
+elif m<n and m<l:
+    print(f'{m} is smaller')
+else:
+    print(f'{l} is smaller')
