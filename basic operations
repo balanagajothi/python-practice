@@ -1,0 +1,8 @@
+n=int(input())
+m=int(input())
+print("The sum is ",n+m)
+print("The difference is ",n-m)
+print("The multiplication is ",n*m)
+print("The division is ",n/m)
+print("The remainder is ",n%m)
+print("The floor division is ",n//m)
